@@ -11,25 +11,33 @@
 <body>
     <header>
         <div class="container">
-            <div class="menu">
-                <span>SIT <strong>ON</strong> CHAIR</span>
-                    <ul>
-                        <li>O FIRMIE</li>
-                        <li>GALERIA</li>
-                        <li>KONTAKT</li>
-                    </ul>
-                <div style="clear: both"></div>
-            </div>
+            <div style="float:left"><span>SIT <strong>ON</strong> CHAIR</span></div>
+            <nav style="float:right">
+                <ul>
+                    <li>O FIRMIE</li>
+                    <li>GALERIA</li>
+                    <li>KONTAKT</li>
+                </ul>
+            </nav>
+            <div style="clear:both"></div>
         </div>
     </header>
     <section>
-        <img src="./images/black_chair.png"/>
-        <div>
-            <h1>
-                SIT ON OUR CHAIR
-            </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis eros ut lacus hendrerit efficitur vestibulum sed tortor. Pellentesque erat diam, ullamcorper id auctor non, iaculis non odio. Nam eget.</p>
-            <div id="button">ZOBACZ WIĘCEJ</div>
+        <div class="grey-gradient">
+            <div class="container flex-elements">
+                    <p><i class="arrow left"></i></p>
+                    <img src="./images/black_chair.png"/>
+                    <div style="border:1px solid red">
+                        <p id="sec-one-head">
+                            SIT <strong>ON</strong> OUR <strong>CHAIR</strong>
+                        </p>
+                        <p id="sec-one-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis eros ut lacus hendrerit efficitur vestibulum sed tortor. Pellentesque erat diam, ullamcorper id auctor non, iaculis non odio. Nam eget.</p>
+                        <div id="link-container">
+                                <a href="#" id="button">ZOBACZ WIĘCEJ</a>
+                        </div>
+                    </div>
+                    <p><i class="arrow right"></i></p>
+            </div>
         </div>
     </section>
     <section>
@@ -49,9 +57,12 @@
             <div>
                 <input type="text" name="name" placeholder="Imię">
                 <input type="email" name="email" placeholder="email">
-                <textarea name="message" placeholder="Wiadomość">
+                <textarea placeholder="Wiadomość"></textarea>
             </div>
         </form>
     </section>
+    <footer>
+        2019 &copy; All right reserved
+    </footer>
 </body>
 </html>
