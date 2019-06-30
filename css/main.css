@@ -37,6 +37,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .flex-elements{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 i {
     border: solid #46c7b2;
@@ -78,17 +79,42 @@ i {
       color:white;
   }
   .three-elements{
-      float: left;
-      width: 30%;
-      height: 200px;
+      width: 329px;
+      height: 225px;
       margin: 20px 0;
       border: 1px solid lightgray;
-      background-size: contain;
+      position: relative;
+  }
+  /* .three-elements:nth-of-type(3){
+      height: 100%;
+  } */
+  .sec-2-headers{
+      position: absolute;
+      bottom: 9%;
+      width: 100%;
+      border: 1px solid red;
+      padding: 5% 2%;
+      background: rgba(255, 255, 255, 0.4);
+  }
+  h4:after{
+    content: '';
+    color: #46c7b2;
+    background: #46c7b2;
+    display: block;
+    width: 45%;
+    height: 6px;
   }
   #first-box{
       background-image: url("/home/luki/Desktop/projects/sit on chair/sit-on-chair/images/box1_img.jpg");
   }
   #second-box{
     background-image: url("/home/luki/Desktop/projects/sit on chair/sit-on-chair/images/box2_img.jpg");
-    margin: 20px;
+}
+#text-header{
+    padding: 5%;
+}
+.three-elements > p{
+    font-weight: 100;
+    color: grey;
+    padding: 5%;
 }
