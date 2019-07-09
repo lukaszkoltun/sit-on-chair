@@ -102,7 +102,7 @@ i {
   }
   h4:after{
     content: '';
-    color: #46c7b2;
+    /* color: #46c7b2; */
     background: #46c7b2;
     display: block;
     width: 45%;
@@ -122,7 +122,33 @@ i {
     font-size: 0.93em;
     padding: 5%;
 }
+#grey-back{
+    background: #f1f1f1;
+}
 .sec-3{
     width: 33.33%;
+    border: 1px solid lightgray;
+    background: #fafafa
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border: 1px solid lightgray;
+    border-radius: 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.circle > div{
+    margin: 0 auto;
+    color: lightgrey;
+    font-weight: 700;
+}
+.circle h1{
+    font-size: 2.5em;
     
+}
+.circle sup{
+    font-size: 0.5em;
 }
